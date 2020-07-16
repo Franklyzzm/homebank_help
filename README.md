@@ -1,6 +1,6 @@
 # HomeBank Help Documents
 
- HomeBank help doc
+ [HomeBank help doc](https://franklyzzm.github.io/homebank_help/5.4.2/index.html)
 
 Version: 5.4.2
 
