@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta content="text/html; charset=utf-8" http-equiv="content-type">
+  <meta content="noindex" name="robots">
+  <title>Filter dialog</title>
+  <link href="help.css" rel="stylesheet" type="text/css">
+</head>
+<body id="top">
+  <div class="dochead">
+    HomeBank User manual
+  </div>
+  <div class="title">
+    <h1>Filter dialog</h1>
+    <p>The filter dialog is used to adjust the filter transaction criteria, it is divided into several section.</p>
+    <ul class="toc">
+      <li><a href="#tab1">Dates</a></li>
+      <li><a href="#tab2">Status</a></li>
+      <li><a href="#tab4">Amounts</a></li>
+      <li><a href="#tab5">Texts</a></li>
+      <li><a href="#tab6">Categories</a></li>
+      <li><a href="#tab7">Payees</a></li>
+      <li><a href="#tab8">Accounts</a></li>
+    </ul>
+  </div>
+
+  <div class="rounded content">
+    <h2>Common element</h2>
+    <p>On every section, you will have the following widget that control the way of working of the match criteria:
+    <table class="widgetinfo">
+      <tr>
+        <th>Option</th>
+        <td>
+          <ul>
+            <li>Off = disable this filter section</li>
+            <li>Include = include the selection or items</li>
+            <li>Exclude = exclude the selection or items</li>
+          </ul>
+        </td>
+      </tr>
+    </table>
+  </div>
+
+  <div class="row">
+  <div class="gfx">
+    <img class="gtkshot right" src="images/dlg-filter1.png">
+  </div>
+  <div class="rounded content">
+    <h2><a id="tab1" name="tab1"></a>Dates</h2>
+    <table class="widgetinfo">
+      <tr>
+        <th>From</th>
+        <td>the date minimum value</td>
+      </tr>
+      <tr>
+        <th>To</th>
+        <td>the date maximum value</td>
+      </tr>
+    </table>
+    <div class="clear"></div>
+    <p class="top"><a href="#top">↑ Back to Top</a></p>
+  </div>
+  </div>
+
+  <div class="row">
+  <div class="gfx">
+    <img class="gtkshot right" src="images/dlg-filter2.png">
+  </div>
+  <div class="rounded content">
+    <h2><a id="tab2" name="tab2"></a>Status</h2>
+    <h3>Status</h3>
+    <p>Any Status / Cleared / Reconciled</p>
+
+    <h3>Type</h3>
+    <p>Any Type / Expense / Income / Transfer</p>
+
+    <h3>Force</h3>
+    <p>this is only available for the account window</p>
+    <table class="widgetinfo">
+      <tr>
+        <th>show recently 'Added'</th>
+        <td>force transaction in 'added' status to always be displayed</td>
+      </tr>
+      <tr>
+        <th>show recently 'Edited'</th>
+        <td>force transaction in 'edited' status to always be displayed</td>
+      </tr>
+      <tr>
+        <th>display 'Remind'</th>
+        <td>force remind transaction to always be displayed</td>
+      </tr>
+    </table>
+    <div class="clear"></div>
+    <p class="top"><a href="#top">↑ Back to Top</a></p>
+  </div>
+  </div>
+ 
+  <div class="row">
+  <div class="gfx">
+    <img class="gtkshot right" src="images/dlg-filter3.png">
+  </div>
+  <div class="rounded content">
+    <h2><a id="tab3" name="tab3"></a>Payments</h2>
+    <table class="widgetinfo">
+      <tr>
+        <th>Select</th>
+        <td>quick change of the selection:<br>All / None / Invert</td>
+      </tr>
+      <tr>
+        <th>{payment}</th>
+        <td>see the lexicon for <a href="00-lexicon.html#payment">payment</a> detail<br></td>
+      </tr>
+    </table>
+    <div class="clear"></div>
+    <p class="top"><a href="#top">↑ Back to Top</a></p>
+  </div>
+  </div>
+ 
+  <div class="row">
+  <div class="gfx">
+    <img class="gtkshot right" src="images/dlg-filter4.png">
+  </div>
+  <div class="rounded content">
+    <h2><a id="tab4" name="tab4"></a>Amounts</h2>
+    <table class="widgetinfo">
+      <tr>
+        <th>From</th>
+        <td>the amount minimum value</td>
+      </tr>
+      <tr>
+        <th>To</th>
+        <td>the amount maximum value</td>
+      </tr>
+    </table>
+    <div class="clear"></div>
+    <p class="top"><a href="#top">↑ Back to Top</a></p>
+  </div>
+  </div>
+ 
+  <div class="row">
+  <div class="gfx">
+    <img class="gtkshot right" src="images/dlg-filter5.png">
+  </div>
+  <div class="rounded content">
+    <h2><a id="tab5" name="tab5"></a>Texts</h2>
+    <table class="widgetinfo">
+     <tr>
+        <th>Memo</th>
+        <td>the memo string to search</td>
+      </tr>
+      <tr>
+        <th>Info</th>
+        <td>the info string to search</td>
+      </tr>
+      <tr>
+        <th>Tag</th>
+        <td>the tag string to search</td>
+      </tr>
+      <tr>
+        <th>Case sensitive</th>
+        <td>set text search to be case sensitive</td>
+      </tr>
+    </table>
+    <div class="clear"></div>
+    <p class="top"><a href="#top">↑ Back to Top</a></p>
+  </div>
+  </div>
+ 
+  <div class="row">
+  <div class="gfx">
+    <img class="gtkshot right" src="images/dlg-filter6.png">
+  </div>
+  <div class="rounded content">
+    <h2><a id="tab6" name="tab6"></a>Categories / Payees / Accounts</h2>
+    <p>These tabs all function-the same manner. You can filter these using a list of item, including or excluding the selected items.<br>
+    The account tab is not showed when you filter from the account window, it is showed only from the other dialog.</p>
+    <table class="widgetinfo">
+      <tr>
+        <th>Select</th>
+        <td>quick change of the selection:<br>All / None / Invert</td>
+      </tr>
+      <tr>
+        <th>{Items}</th>
+        <td>list with Categories / Payees or Accounts</td>
+      </tr>
+
+    </table>
+    <div class="clear"></div>
+    <p class="top"><a href="#top">↑ Back to Top</a></p>
+  </div>
+  </div>
+ 
+</body>
+</html>
